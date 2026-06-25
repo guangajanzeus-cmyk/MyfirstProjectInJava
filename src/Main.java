@@ -135,7 +135,7 @@ public class Main {
         height = scanner.nextDouble();
 
         area = width * height;
-        System.out.println("The Area of the rectangle is: " + area + " " + "cm²");
+        System.out.println("The Area of the rectangle is: " + area + " " + "cm² ");
         scanner.close();
     }
 }
