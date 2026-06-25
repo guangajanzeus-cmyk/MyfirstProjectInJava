@@ -1,8 +1,8 @@
-import java.security.spec.RSAOtherPrimeInfo;
-
+import java.util.Scanner;
 public class Main {
     // ThIS IS MY FIRST JAVA PROGRAM
-    public static void main(String[] args) {
+    public
+    static void main(String[] args) {
         System.out.println("I'm not broke, I'm just a broken hearted man");
         System.out.println("I know it makes no sense but what else can I do");
         System.out.println("How can I move on when I'm still in love with you");
@@ -92,8 +92,50 @@ public class Main {
         System.out.println("My name is " + name + " " + "and my favourite offline game is " + callOfDuty + " " + "and the pi is " + pi + " " +  "and yeah my sex is " + gender1);
         if (isAdmin) {
             System.out.print("You can go inside in school");
-        } else{
+        } else {
             System.out.println("Bring Your ID");
         }
+
+        System.out.println();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter Your Name: ");
+        String name2 = scanner.nextLine();
+
+        System.out.print("What year did you born: ");
+        int age3 = scanner.nextInt();
+
+        System.out.print("What is the value of pi:");
+        double p3 = scanner.nextDouble();
+
+        System.out.print("Are you interested in me? (true/false): ");
+        boolean student = scanner.nextBoolean();
+
+        System.out.println("Hello :)" + name2);
+        System.out.println("ohh shii, " + age3 + " " + "that's cool");
+        System.out.println("The value of pi is " + p3);
+        if (student) {
+            System.out.println("Wow that's cool");
+        }
+        else {
+            System.out.println("That's what I am talking about! :)");
+        }
+
+        double width = 0;
+        double height = 0;
+        double area = 0;
+
+
+        System.out.println("you can multiply the area of rectangle or even calculate anything yeah ofcourse its multiply only");
+
+        System.out.print("Enter the Width: ");
+        width = scanner.nextDouble();
+
+        System.out.print("Enter the Height: ");
+        height = scanner.nextDouble();
+
+        area = width * height;
+        System.out.println("The Area of the rectangle is: " + area + " " + "cm²");
+        scanner.close();
     }
 }
