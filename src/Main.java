@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Main {
     // ThIS IS MY FIRST JAVA PROGRAM
-    public
     static void main(String[] args) {
         System.out.println("I'm not broke, I'm just a broken hearted man");
         System.out.println("I know it makes no sense but what else can I do");
@@ -99,6 +98,7 @@ public class Main {
         System.out.println();
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter Your Name: ");
         String name2 = scanner.nextLine();
 
@@ -111,7 +111,7 @@ public class Main {
         System.out.print("Are you interested in me? (true/false): ");
         boolean student = scanner.nextBoolean();
 
-        System.out.println("Hello :)" + name2);
+        System.out.println("Hello :) " + name2);
         System.out.println("ohh shii, " + age3 + " " + "that's cool");
         System.out.println("The value of pi is " + p3);
         if (student) {
@@ -126,7 +126,7 @@ public class Main {
         double area = 0;
 
 
-        System.out.println("you can multiply the area of rectangle or even calculate anything yeah ofcourse its multiply only");
+        System.out.println("INSTRUCTION:you can multiply the area of rectangle or even calculate anything yeah ofcourse its multiply only");
 
         System.out.print("Enter the Width: ");
         width = scanner.nextDouble();
@@ -135,7 +135,55 @@ public class Main {
         height = scanner.nextDouble();
 
         area = width * height;
-        System.out.println("The Area of the rectangle is: " + area + " " + "cm² ");
+        System.out.print("The Area of the rectangle is: " + area + " " + "cm² \n");
+
+        scanner.nextLine();
+
+        String adjective1;
+        String noun1;
+        String adjective2;
+        String verb;
+        String adjective3;
+
+        System.out.print("Enter an adjective (description): ");
+        adjective1 = scanner.nextLine();
+        System.out.print("Enter a noun (animal or a person): ");
+        noun1 = scanner.nextLine();
+        System.out.print("Enter an adjective (description): ");
+        adjective2 = scanner.nextLine();
+        System.out.print("Enter a verb end with -ate (action): ");
+        verb = scanner.nextLine();
+        System.out.print("Enter an adjective (description): ");
+        adjective3 = scanner.nextLine();
+
+        System.out.println("\nThe " + adjective1  + " and " + adjective2);
+        System.out.println("student saw a " + adjective3 + " laptop while trying to " + verb);
+        System.out.println("a " + noun1  + " for his project, but he stayed focused because he wanted to improve!");
+
+
         scanner.close();
+
+        int x = 10;
+        int y = 3;
+        //int z;
+       // z = x * y;
+       // z = x + y;
+        //z = x - y;
+        //z = x / y;
+        //z = x % y;
+        //x = x * y;
+
+        //x++;
+       // x--;
+
+        //x += 1;
+        //x *= 1;
+        //x -= 1;
+        //x /= 1;
+        //x %= 3;
+
+        double result = 2 + 2 * (7-2) / 2.0;
+
+        System.out.println(result);
     }
 }
