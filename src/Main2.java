@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 public class Main2 {
     // ThIS IS MY FIRST JAVA PROGRAM
     public
@@ -24,8 +25,7 @@ public class Main2 {
         total = price * quantity;
 
         System.out.println("\nYou have bought " + quantity + " " + item + "'s");
-        System.out.println("Your total is " + currency + total);
-
+        System.out.printf("Your total is %c%,.1f\n", currency, total);
 
 
         //if statement
@@ -49,16 +49,15 @@ public class Main2 {
 
         //Group 1
 
-        if (name.isEmpty()){
+        if (name.isEmpty()) {
             System.out.println("\nYou DIDN'T enter your name! 😡");
-        }
-        else {
+        } else {
             System.out.println("\nHello " + name + " 😉");
         }
 
         //Group 2
 
-        if (age >= 65){
+        if (age >= 65) {
             System.out.println("You're a senior!👴");
         } else if (age >= 18) {
             System.out.println("You're a adult! 🧑");
@@ -74,11 +73,35 @@ public class Main2 {
 
         if (isStudent) {
             System.out.println("You're a Student! 🏫");
-        }
-        else {
+        } else {
             System.out.println("You're NOT a student from TCNHS! 🚫");
         }
 
         scanner.close();
+
+        Random random = new Random();
+
+        int numbers;
+
+        numbers = random.nextInt(1, 11);
+
+        System.out.println(numbers);
+
+        double number1;
+
+        number1 = random.nextDouble();
+
+        System.out.println(number1);
+
+        boolean isHeads;
+
+        isHeads = random.nextBoolean();
+
+        if (isHeads) {
+            System.out.println("Heads");
+        }
+        else {
+            System.out.println("Tails!");
+        }
     }
 }
