@@ -2,8 +2,7 @@
 import java.util.Scanner;
 public class ShoppingCartProgramProject {
     // ThIS IS MY FIRST JAVA PROGRAM
-    public
-    static void main(String[] args) {
+    public static void main(String[] args) {
         //Shopping Cart Program
 
         Scanner scanner = new Scanner(System.in);
