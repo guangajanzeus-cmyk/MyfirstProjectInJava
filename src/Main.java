@@ -185,5 +185,31 @@ public class Main {
         double result = 2 + 2 * (7-2) / 2.0;
 
         System.out.println(result);
+
+        boolean isStudent = true;
+        boolean isSenior = true;
+        double price2 = 599;
+
+        if (isStudent){
+            if (isSenior){
+                System.out.println("You get a senior discount for 20%");
+                System.out.println("You get a student discount for 10%");
+                price2 *= 0.7;
+            }
+            else {
+                System.out.println("You get a student discount for 10%");
+                price2 *= 0.9;
+            }
+        }
+        else {
+            if (isSenior) {
+                System.out.println("You get a senior discount for 20%");
+                price2 *= 0.8;
+            }
+            else {
+                price2 *= 1;
+            }
+        }
+        System.out.printf("The price of the ticket is: ₱%.2f", price2);
     }
 }
