@@ -25,5 +25,6 @@ public class ShoppingCartProgramProject {
 
         System.out.println("\nYou have bought " + quantity + " " + item + "'s");
         System.out.printf("Your total is %c%,.1f\n", currency, total);
+
     }
 }
