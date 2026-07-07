@@ -81,7 +81,7 @@ public class Main2 {
            // System.out.println("Tails!");
         //}
 
-        String name = "Password";
+        //String name = "Password";
 
         //int length   = name.length();
         //char letter = name.charAt(0);
@@ -99,12 +99,12 @@ public class Main2 {
        // else {
             //System.out.println("Hello " + name);
         //}
-        if (name.equalsIgnoreCase("password")){
-            System.out.println("Your name can't be password");
-        }
-        else {
-            System.out.println("Hello " + name);
-        }
+       //if (name.equalsIgnoreCase("password")){
+           // System.out.println("Your name can't be password");
+        //}
+       // else {
+            //ystem.out.println("Hello " + name);
+       // }
 
         //System.out.println(name);
     }
