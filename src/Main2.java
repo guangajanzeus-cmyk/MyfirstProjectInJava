@@ -81,7 +81,7 @@ public class Main2 {
         // System.out.println("Tails!");
         //}
 
-        String name = "Password";
+        //String name = "Password";
 
         //int length   = name.length();
         //char letter = name.charAt(0);
@@ -93,19 +93,44 @@ public class Main2 {
         //name = name.trim();
         // name = name.replace("a", "e");
 
-        if (name.isEmpty()){
-         System.out.println("Your Name is Empty");
-        }
-         else {
-        System.out.println("Hello " + name);
-        }
-        if (name.equalsIgnoreCase("password")){
-         System.out.println("Your name can't be password");
-    }
-       else {
-            System.out.println("Hello " + name);
-       }
+        //if (name.isEmpty()){
+         //System.out.println("Your Name is Empty");
+        //}
+         //else {
+        //System.out.println("Hello " + name);
+        //}
+        //if (name.equalsIgnoreCase("password")){
+         //System.out.println("Your name can't be password");
+    //}
+      // else {
+            //System.out.println("Hello " + name);
+       //}
 
-        System.out.println(name);
+        //System.out.println(name);
+
+        //Scanner scanner = new Scanner(System.in);
+
+        //String email;
+        //String username;
+       // String domain;
+
+        //System.out.print("Enter your email: ");
+
+        //email = scanner.nextLine();
+
+        //if (email.contains("@")) {
+
+            //username = email.substring(0, email.indexOf("@"));
+            //domain = email.substring(email.indexOf("@") + 1);
+
+            //System.out.println(username);
+           // System.out.println(domain);
+        //}
+        //else {
+        // System.out.println("You don't have the '@' ");
+        //}
+        //scanner.close();
+
+
     }
 }
