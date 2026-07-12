@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.Random;
 public class Main2 {
@@ -131,6 +132,46 @@ public class Main2 {
         //}
         //scanner.close();
 
+        //int score = 50;
+
+        //String passOrFail = (score >= 70) ? "PASS" : "FAIL";
+
+        //System.out.println(passOrFail);
+
+        //Temperatue Conversion Program
+
+        //Scanner scanner1 = new Scanner(System.in);
+
+        //double temp;
+        //double newTemp;
+        //String unit;
+
+        //System.out.print("Enter the Temperature: ");
+       // temp = scanner1.nextDouble();
+
+        //System.out.print("Convert to Celcius or Fahrenheit? (C or F): ");
+        //unit = scanner1.next().toUpperCase();
+
+        //newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 5 / 9) + 32;
+
+        //System.out.printf("%.1f°%s", newTemp, unit);
+
+        //scanner1.close();
+
+        Scanner scanner2 = new Scanner(System.in);
+
+        System.out.print("Enter the Day today: ");
+        String day = scanner2.nextLine();
+
+        switch (day){
+            case "Monday", "Tuesday","Wednesday" ,"Thursday" ,"Friday" ->
+                    System.out.println("It is Weekday");
+            case "Saturday", "Sunday" ->
+                    System.out.println("It is Weekend");
+            default -> System.out.println( day + " is NOT a day");
+        }
+
+        scanner2.close();
 
     }
 }
