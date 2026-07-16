@@ -158,20 +158,58 @@ public class Main2 {
 
         //scanner1.close();
 
-        Scanner scanner2 = new Scanner(System.in);
+        //Scanner scanner2 = new Scanner(System.in);
 
-        System.out.print("Enter the Day today: ");
-        String day = scanner2.nextLine();
+        //System.out.print("Enter the Day today: ");
+        //String day = scanner2.nextLine();
 
-        switch (day){
-            case "Monday", "Tuesday","Wednesday" ,"Thursday" ,"Friday" ->
-                    System.out.println("It is Weekday");
-            case "Saturday", "Sunday" ->
-                    System.out.println("It is Weekend");
-            default -> System.out.println( day + " is NOT a day");
-        }
+        //switch (day){
+        //    case "Monday", "Tuesday","Wednesday" ,"Thursday" ,"Friday" ->
+         //           System.out.println("It is Weekday");
+        //    case "Saturday", "Sunday" ->
+         //           System.out.println("It is Weekend");
+        //   default -> System.out.println( day + " is NOT a day");
+       // }
 
-        scanner2.close();
+       // scanner2.close();
 
+
+        //Scanner scanner = new Scanner(System.in);
+
+        //String username;
+
+        //System.out.print("Enter your name: ");
+       // username = scanner.nextLine();
+
+       // if (username.length() < 4 || username.length() > 12) {
+           // System.out.println("Username must contains 4-12 letters!");
+        //}
+        //else if (username.contains(" ") || username.contains("_")) {
+           // System.out.println("Username must not contains spaces or underscores!");
+        //}
+        //else {
+            //System.out.println("Welcome " + username);
+        //}
+
+        //scanner.close();
+
+        //while (1 == 1){
+            //System.out.println("HELP! I'm stuck in a loop!");
+        //}
+
+        //Scanner scanner = new Scanner(System.in);
+
+        //String response = " ";
+
+       // while (!response.equals("Q")) {
+            //System.out.println("You're playing a Game!");
+            //System.out.print("Press Q to quit: ");
+           // response = scanner.next().toUpperCase();
+
+        //}
+
+        //System.out.println("You quit the game");
+
+        //scanner.close();
     }
 }
