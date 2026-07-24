@@ -1,10 +1,11 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
-import java.util.Random;
+
 public class Main2 {
+
+    int x = 3;
     // ThIS IS MY FIRST JAVA PROGRAM
     public
-    static void main(String[] args) {
+    static void main(String[] args)  {
         //if statement
 
         //Scanner scanner = new Scanner(System.in);
@@ -211,5 +212,127 @@ public class Main2 {
         //System.out.println("You quit the game");
 
         //scanner.close();
+
+        //for (int i = 1; i <= 10; i++) {
+            //System.out.println(i);
+        //}
+
+        Scanner scanner = new Scanner(System.in);
+
+        //System.out.print("How many times you want to loop: ");
+       // int max = scanner.nextInt();
+
+       // for (int i = 1; i <= max; i++){
+           // System.out.println(i);
+       // }
+
+        //System.out.print("How many countdown to start from: ");
+        //int start = scanner.nextInt();
+
+        //for (int i = start; i >= 1; i--) {
+        //    System.out.println(i);
+           // Thread.sleep(1000);
+        //}
+        //System.out.println("HAPPY NEW YEAR!");
+
+
+        //int rows;
+        //nt columns;
+        //char symbol;
+
+        //System.out.print("Enter the # of rows:");
+        //rows = scanner.nextInt();
+
+        //System.out.print("Enter the # of columns: ");
+        //columns = scanner.nextInt();
+
+        //System.out.print("Enter the symbol to use: ");
+        //symbol = scanner.next().charAt(0);
+
+        //for (int i = 0; i < rows; i++) {
+            //for (int j = 0; j < columns; j++) {
+               // System.out.print(symbol);
+           // }
+           // System.out.println();
+        //}
+
+        //scanner.close();
+
+        String names = getFullname("Jan", "Guanga" );
+        System.out.println(names);
+
+        int ages = 20;
+
+        if (ageCheck(ages)) {
+            System.out.println("You may sign up!");
+        }
+        else {
+            System.out.println("You must be 18+ to sign up!");
+        }
+
+        System.out.println(cube(5));
+
+        System.out.println(square(3));
+
+        String name = "Zeus";
+        int age = 18;
+
+        happyBirthday(name, age);
+
+        System.out.println(addition(3));
+
+        System.out.println(multipy(4, 5));
+
+        System.out.println(subtract(10,3));
+
+        System.out.println(divide(20,5));
+
+        int x = 1;
+        System.out.println(x);
+
+        doSomething();
+
+    }
+
+    static String getFullname(String first, String last){
+        return first + " " +last;
+    }
+    static boolean ageCheck(int age){
+        if (age >= 18){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    static double cube(double number){
+        return number * number * number;
+    }
+    static double square(double number){
+        return number * number;
+    }
+    static String happyBirthday(String name, int age){
+        System.out.println("Happy Birthday to you!");
+        System.out.printf("Happy Birthday dear &s!\n", name);
+        System.out.printf("You are %d years old!\n", age);
+        System.out.println("Happy Birthday to you!\n");
+        return name;
+    }
+    static int addition(int number){
+        return number + number;
+    }
+    static int multipy(int number, int number2){
+        return number * number2;
+    }
+    static int subtract(int number3, int number4){
+        return number3 - number4;
+    }
+    static int divide(int number5, int number6){
+        return number5 / number6;
+    }
+    static void doSomething() {
+        int x = 2;
+
+        System.out.println(x);
     }
 }

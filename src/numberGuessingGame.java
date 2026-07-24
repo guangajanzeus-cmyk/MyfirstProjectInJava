@@ -6,6 +6,8 @@ public class numberGuessingGame {
 void main() {
 
 
+    //Simple Game
+
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);
 
