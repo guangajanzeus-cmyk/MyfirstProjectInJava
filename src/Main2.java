@@ -258,81 +258,81 @@ public class Main2 {
 
         //scanner.close();
 
-        String names = getFullname("Jan", "Guanga" );
-        System.out.println(names);
+        //String names = getFullname("Jan", "Guanga" );
+        //System.out.println(names);
 
-        int ages = 20;
+        //int ages = 20;
 
-        if (ageCheck(ages)) {
-            System.out.println("You may sign up!");
-        }
-        else {
-            System.out.println("You must be 18+ to sign up!");
-        }
+        //if (ageCheck(ages)) {
+            //System.out.println("You may sign up!");
+       // }
+        //else {
+            //System.out.println("You must be 18+ to sign up!");
+        //}
 
-        System.out.println(cube(5));
+        //System.out.println(cube(5));
 
-        System.out.println(square(3));
+        //System.out.println(square(3));
 
-        String name = "Zeus";
-        int age = 18;
+        //String name = "Zeus";
+        //int age = 18;
 
-        happyBirthday(name, age);
+        //happyBirthday(name, age);
 
-        System.out.println(addition(3));
+       // System.out.println(addition(3));
 
-        System.out.println(multipy(4, 5));
+        //System.out.println(multipy(4, 5));
 
-        System.out.println(subtract(10,3));
+        //System.out.println(subtract(10,3));
 
-        System.out.println(divide(20,5));
+       // System.out.println(divide(20,5));
 
-        int x = 1;
-        System.out.println(x);
+        //int x = 1;
+        //System.out.println(x);
 
-        doSomething();
+        //doSomething();
 
-    }
+    //}
 
-    static String getFullname(String first, String last){
-        return first + " " +last;
-    }
-    static boolean ageCheck(int age){
-        if (age >= 18){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-    static double cube(double number){
-        return number * number * number;
-    }
-    static double square(double number){
-        return number * number;
-    }
-    static String happyBirthday(String name, int age){
-        System.out.println("Happy Birthday to you!");
-        System.out.printf("Happy Birthday dear &s!\n", name);
-        System.out.printf("You are %d years old!\n", age);
-        System.out.println("Happy Birthday to you!\n");
-        return name;
-    }
-    static int addition(int number){
-        return number + number;
-    }
-    static int multipy(int number, int number2){
-        return number * number2;
-    }
-    static int subtract(int number3, int number4){
-        return number3 - number4;
-    }
-    static int divide(int number5, int number6){
-        return number5 / number6;
-    }
-    static void doSomething() {
-        int x = 2;
+   // static String getFullname(String first, String last){
+        //return first + " " +last;
+    //}
+   // static boolean ageCheck(int age){
+        //if (age >= 18){
+            //return true;
+        //}
+       // else {
+          //  return false;
+       // }
+    //}
+   // static double cube(double number){
+        //return number * number * number;
+    //}
+   // static double square(double number){
+       // return number * number;
+    //}
+    //static String happyBirthday(String name, int age){
+       // System.out.println("Happy Birthday to you!");
+        //System.out.printf("Happy Birthday dear &s!\n", name);
+        //System.out.printf("You are %d years old!\n", age);
+       // System.out.println("Happy Birthday to you!\n");
+        //return name;
+    //}
+    //static int addition(int number){
+       // return number + number;
+    //}
+    //static int multipy(int number, int number2){
+   //     return number * number2;
+    //}
+    //static int subtract(int number3, int number4){
+      //  return number3 - number4;
+    //}
+    //static int divide(int number5, int number6){
+      //  return number5 / number6;
+   // }
+   //static void doSomething() {
+ //       int x = 2;
 
-        System.out.println(x);
+       // System.out.println(x);
     }
 }
