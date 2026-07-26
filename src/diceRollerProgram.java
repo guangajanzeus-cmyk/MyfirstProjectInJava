@@ -85,5 +85,6 @@ public class diceRollerProgram {
             case 6 -> System.out.println(dice6);
             default -> System.out.println("INVALID CHOICE");
         }
+
     }
 }

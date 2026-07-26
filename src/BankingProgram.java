@@ -40,6 +40,7 @@ public class BankingProgram {
          System.out.println("***************");
          System.out.println("Have a Nice Day!");
          System.out.println("***************");
+         scanner.close();
     }
     static void ShowBalance(double balance) {
         System.out.println("***************");
