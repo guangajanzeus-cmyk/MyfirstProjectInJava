@@ -217,7 +217,7 @@ public class Main2 {
             //System.out.println(i);
         //}
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
 
         //System.out.print("How many times you want to loop: ");
        // int max = scanner.nextInt();
@@ -334,5 +334,39 @@ public class Main2 {
  //       int x = 2;
 
        // System.out.println(x);
+
+        //Scanner scanner = new Scanner(System.in);
+
+        //String[] foods;
+        //int size;
+
+        //System.out.print("What # of food do you want: ");
+        //size = scanner.nextInt();
+        //scanner.nextLine();
+
+        //foods = new String [size];
+
+        //for (int i = 0; i < foods.length; i++){
+            //System.out.print("Enter a food: ");
+            //foods[i] = scanner.nextLine();
+        //}
+
+        //for (String food : foods) {
+            //System.out.println(food);
+        //}
+
+        //scanner.close();
+
+
+        char[][] telephone = {{'1', '2', '3'},
+                              {'4', '5', '6'},
+                              {'7', '8', '9'},
+                              {'*', '0', '#'}};
+        for (char[] row : telephone) {
+            for (char number : row) {
+                System.out.print(number + " ");
+            }
+            System.out.println();
+        }
     }
 }
