@@ -12,6 +12,7 @@ public class SlotMachine {
         int payout;
         String[] row;
         String playAgain;
+        int deposit;
 
 
         System.out.println("============================");
@@ -20,6 +21,11 @@ public class SlotMachine {
         System.out.println("============================");
 
         while(balance > 0) {
+            System.out.print("What amount you want to deposit: ");
+            deposit = scanner.nextInt();
+
+            balance += deposit;
+
             System.out.println("Current balance: ₱" + balance);
             System.out.print("Place you bet amount: ");
             bet = scanner.nextInt();
@@ -59,6 +65,8 @@ public class SlotMachine {
                 break;
             }
         }
+
+        System.out.println("GAME OVER!: Your Total balance: ₱" + balance);
 
         scanner.close();
 
