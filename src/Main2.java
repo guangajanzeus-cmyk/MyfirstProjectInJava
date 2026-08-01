@@ -358,15 +358,53 @@ public class Main2 {
         //scanner.close();
 
 
-        char[][] telephone = {{'1', '2', '3'},
-                              {'4', '5', '6'},
-                              {'7', '8', '9'},
-                              {'*', '0', '#'}};
-        for (char[] row : telephone) {
-            for (char number : row) {
-                System.out.print(number + " ");
-            }
-            System.out.println();
-        }
+        //char[][] telephone = {{'1', '2', '3'},
+                             // {'4', '5', '6'},
+                           //   {'7', '8', '9'},
+                            //  {'*', '0', '#'}};
+        //for (char[] row : telephone) {
+            //for (char number : row) {
+               // System.out.print(number + " ");
+            //}
+           // System.out.println();
+        //}
+
+        Car car1 = new Car("Jan", 18, 3.0);
+        Car car2 = new Car("Sung", 25, 5.0);
+        Car car3 = new Car("Saitama", 24, 4.5);
+
+        System.out.println(car1.name);
+        System.out.println(car1.age);
+        System.out.println(car1.gpa);
+        System.out.println(car1.isEnrolled);
+
+        System.out.println();
+
+        System.out.println(car2.name);
+        System.out.println(car2.age);
+        System.out.println(car2.gpa);
+        System.out.println(car2.isEnrolled);
+
+        System.out.println();
+
+        System.out.println(car3.name);
+        System.out.println(car3.age);
+        System.out.println(car3.gpa);
+        System.out.println(car3.isEnrolled);
+
+        System.out.println();
+
+        car1.study();
+        car2.study();
+        car3.study();
+
+        //System.out.println(car1.brand);
+        //System.out.println(car1.model);
+        //System.out.println(car1.year);
+       // System.out.println(car1.price);
+       // System.out.println(car1.isRunning);
+
+        //car1.start();
+        //car1.stop();
     }
 }
