@@ -6,7 +6,7 @@ public class Main2 {
     int x = 3;
     // ThIS IS MY FIRST JAVA PROGRAM
     public
-    static void main(String[] args)  {
+    static void main(String[] args) {
         //if statement
 
         //Scanner scanner = new Scanner(System.in);
@@ -97,17 +97,17 @@ public class Main2 {
         // name = name.replace("a", "e");
 
         //if (name.isEmpty()){
-         //System.out.println("Your Name is Empty");
+        //System.out.println("Your Name is Empty");
         //}
-         //else {
+        //else {
         //System.out.println("Hello " + name);
         //}
         //if (name.equalsIgnoreCase("password")){
-         //System.out.println("Your name can't be password");
-    //}
-      // else {
-            //System.out.println("Hello " + name);
-       //}
+        //System.out.println("Your name can't be password");
+        //}
+        // else {
+        //System.out.println("Hello " + name);
+        //}
 
         //System.out.println(name);
 
@@ -115,7 +115,7 @@ public class Main2 {
 
         //String email;
         //String username;
-       // String domain;
+        // String domain;
 
         //System.out.print("Enter your email: ");
 
@@ -123,11 +123,11 @@ public class Main2 {
 
         //if (email.contains("@")) {
 
-            //username = email.substring(0, email.indexOf("@"));
-            //domain = email.substring(email.indexOf("@") + 1);
+        //username = email.substring(0, email.indexOf("@"));
+        //domain = email.substring(email.indexOf("@") + 1);
 
-            //System.out.println(username);
-           // System.out.println(domain);
+        //System.out.println(username);
+        // System.out.println(domain);
         //}
         //else {
         // System.out.println("You don't have the '@' ");
@@ -149,7 +149,7 @@ public class Main2 {
         //String unit;
 
         //System.out.print("Enter the Temperature: ");
-       // temp = scanner1.nextDouble();
+        // temp = scanner1.nextDouble();
 
         //System.out.print("Convert to Celcius or Fahrenheit? (C or F): ");
         //unit = scanner1.next().toUpperCase();
@@ -167,13 +167,13 @@ public class Main2 {
 
         //switch (day){
         //    case "Monday", "Tuesday","Wednesday" ,"Thursday" ,"Friday" ->
-         //           System.out.println("It is Weekday");
+        //           System.out.println("It is Weekday");
         //    case "Saturday", "Sunday" ->
-         //           System.out.println("It is Weekend");
+        //           System.out.println("It is Weekend");
         //   default -> System.out.println( day + " is NOT a day");
-       // }
+        // }
 
-       // scanner2.close();
+        // scanner2.close();
 
 
         //Scanner scanner = new Scanner(System.in);
@@ -181,32 +181,32 @@ public class Main2 {
         //String username;
 
         //System.out.print("Enter your name: ");
-       // username = scanner.nextLine();
+        // username = scanner.nextLine();
 
-       // if (username.length() < 4 || username.length() > 12) {
-           // System.out.println("Username must contains 4-12 letters!");
+        // if (username.length() < 4 || username.length() > 12) {
+        // System.out.println("Username must contains 4-12 letters!");
         //}
         //else if (username.contains(" ") || username.contains("_")) {
-           // System.out.println("Username must not contains spaces or underscores!");
+        // System.out.println("Username must not contains spaces or underscores!");
         //}
         //else {
-            //System.out.println("Welcome " + username);
+        //System.out.println("Welcome " + username);
         //}
 
         //scanner.close();
 
         //while (1 == 1){
-            //System.out.println("HELP! I'm stuck in a loop!");
+        //System.out.println("HELP! I'm stuck in a loop!");
         //}
 
         //Scanner scanner = new Scanner(System.in);
 
         //String response = " ";
 
-       // while (!response.equals("Q")) {
-            //System.out.println("You're playing a Game!");
-            //System.out.print("Press Q to quit: ");
-           // response = scanner.next().toUpperCase();
+        // while (!response.equals("Q")) {
+        //System.out.println("You're playing a Game!");
+        //System.out.print("Press Q to quit: ");
+        // response = scanner.next().toUpperCase();
 
         //}
 
@@ -215,24 +215,24 @@ public class Main2 {
         //scanner.close();
 
         //for (int i = 1; i <= 10; i++) {
-            //System.out.println(i);
+        //System.out.println(i);
         //}
 
         //Scanner scanner = new Scanner(System.in);
 
         //System.out.print("How many times you want to loop: ");
-       // int max = scanner.nextInt();
+        // int max = scanner.nextInt();
 
-       // for (int i = 1; i <= max; i++){
-           // System.out.println(i);
-       // }
+        // for (int i = 1; i <= max; i++){
+        // System.out.println(i);
+        // }
 
         //System.out.print("How many countdown to start from: ");
         //int start = scanner.nextInt();
 
         //for (int i = start; i >= 1; i--) {
         //    System.out.println(i);
-           // Thread.sleep(1000);
+        // Thread.sleep(1000);
         //}
         //System.out.println("HAPPY NEW YEAR!");
 
@@ -251,10 +251,10 @@ public class Main2 {
         //symbol = scanner.next().charAt(0);
 
         //for (int i = 0; i < rows; i++) {
-            //for (int j = 0; j < columns; j++) {
-               // System.out.print(symbol);
-           // }
-           // System.out.println();
+        //for (int j = 0; j < columns; j++) {
+        // System.out.print(symbol);
+        // }
+        // System.out.println();
         //}
 
         //scanner.close();
@@ -265,10 +265,10 @@ public class Main2 {
         //int ages = 20;
 
         //if (ageCheck(ages)) {
-            //System.out.println("You may sign up!");
-       // }
+        //System.out.println("You may sign up!");
+        // }
         //else {
-            //System.out.println("You must be 18+ to sign up!");
+        //System.out.println("You must be 18+ to sign up!");
         //}
 
         //System.out.println(cube(5));
@@ -280,61 +280,61 @@ public class Main2 {
 
         //happyBirthday(name, age);
 
-       // System.out.println(addition(3));
+        // System.out.println(addition(3));
 
         //System.out.println(multipy(4, 5));
 
         //System.out.println(subtract(10,3));
 
-       // System.out.println(divide(20,5));
+        // System.out.println(divide(20,5));
 
         //int x = 1;
         //System.out.println(x);
 
         //doSomething();
 
-    //}
-
-   // static String getFullname(String first, String last){
-        //return first + " " +last;
-    //}
-   // static boolean ageCheck(int age){
-        //if (age >= 18){
-            //return true;
         //}
-       // else {
-          //  return false;
-       // }
-    //}
-   // static double cube(double number){
+
+        // static String getFullname(String first, String last){
+        //return first + " " +last;
+        //}
+        // static boolean ageCheck(int age){
+        //if (age >= 18){
+        //return true;
+        //}
+        // else {
+        //  return false;
+        // }
+        //}
+        // static double cube(double number){
         //return number * number * number;
-    //}
-   // static double square(double number){
-       // return number * number;
-    //}
-    //static String happyBirthday(String name, int age){
-       // System.out.println("Happy Birthday to you!");
+        //}
+        // static double square(double number){
+        // return number * number;
+        //}
+        //static String happyBirthday(String name, int age){
+        // System.out.println("Happy Birthday to you!");
         //System.out.printf("Happy Birthday dear &s!\n", name);
         //System.out.printf("You are %d years old!\n", age);
-       // System.out.println("Happy Birthday to you!\n");
+        // System.out.println("Happy Birthday to you!\n");
         //return name;
-    //}
-    //static int addition(int number){
-       // return number + number;
-    //}
-    //static int multipy(int number, int number2){
-   //     return number * number2;
-    //}
-    //static int subtract(int number3, int number4){
-      //  return number3 - number4;
-    //}
-    //static int divide(int number5, int number6){
-      //  return number5 / number6;
-   // }
-   //static void doSomething() {
- //       int x = 2;
+        //}
+        //static int addition(int number){
+        // return number + number;
+        //}
+        //static int multipy(int number, int number2){
+        //     return number * number2;
+        //}
+        //static int subtract(int number3, int number4){
+        //  return number3 - number4;
+        //}
+        //static int divide(int number5, int number6){
+        //  return number5 / number6;
+        // }
+        //static void doSomething() {
+        //       int x = 2;
 
-       // System.out.println(x);
+        // System.out.println(x);
 
         //Scanner scanner = new Scanner(System.in);
 
@@ -348,26 +348,26 @@ public class Main2 {
         //foods = new String [size];
 
         //for (int i = 0; i < foods.length; i++){
-            //System.out.print("Enter a food: ");
-            //foods[i] = scanner.nextLine();
+        //System.out.print("Enter a food: ");
+        //foods[i] = scanner.nextLine();
         //}
 
         //for (String food : foods) {
-            //System.out.println(food);
+        //System.out.println(food);
         //}
 
         //scanner.close();
 
 
         //char[][] telephone = {{'1', '2', '3'},
-                             // {'4', '5', '6'},
-                           //   {'7', '8', '9'},
-                            //  {'*', '0', '#'}};
+        // {'4', '5', '6'},
+        //   {'7', '8', '9'},
+        //  {'*', '0', '#'}};
         //for (char[] row : telephone) {
-            //for (char number : row) {
-               // System.out.print(number + " ");
-            //}
-           // System.out.println();
+        //for (char number : row) {
+        // System.out.print(number + " ");
+        //}
+        // System.out.println();
         //}
 
         Car car1 = new Car("Jan", 18, 3.0);
@@ -403,28 +403,27 @@ public class Main2 {
         //System.out.println(car1.brand);
         //System.out.println(car1.model);
         //System.out.println(car1.year);
-       // System.out.println(car1.price);
-       // System.out.println(car1.isRunning);
+        // System.out.println(car1.price);
+        // System.out.println(car1.isRunning);
 
         //car1.start();
         //car1.stop();
 
 
-
         //Motor[] motors = {new Motor("Kawasaki", "Green"),
-                          //new Motor("Suzuki", "Purple"),
-                         // new Motor("Honda", "Red")};
+        //new Motor("Suzuki", "Purple"),
+        // new Motor("Honda", "Red")};
 
-            //for(Motor motor : motors) {
-                //motor.color = "Black";
-            //}
+        //for(Motor motor : motors) {
+        //motor.color = "Black";
+        //}
 
-            //for (Motor motor : motors) {
-                //motor.drive();
-           // }
+        //for (Motor motor : motors) {
+        //motor.drive();
+        // }
 
         Dog dog = new Dog("Mikey");
-        Cat cat = new Cat("Ching");
+        Cat cat = new Cat("Chi");
 
         System.out.println(dog.isAlive);
         System.out.println(cat.isAlive);
@@ -432,6 +431,22 @@ public class Main2 {
         dog.eat();
         cat.eat();
 
+        Circle circle = new Circle(3);
+        triangle triangle = new triangle(4, 7);
+        Rectangle rectangle = new Rectangle(6, 7);
 
+        System.out.printf("%.2f\n", circle.area());
+        System.out.println(triangle.area());
+        System.out.println(rectangle.area());
+
+
+        Rabbit rabbit = new Rabbit();
+        Hawk hawk = new Hawk();
+        Fish fish = new Fish();
+
+        rabbit.flee();
+        hawk.hunt();
+        fish.flee();
+        fish.hunt();
     }
 }
