@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main2 {
@@ -372,6 +373,7 @@ public class Main2 {
         Car car1 = new Car("Jan", 18, 3.0);
         Car car2 = new Car("Sung", 25, 5.0);
         Car car3 = new Car("Saitama", 24, 4.5);
+        Car car4 = new Car("Escanor", 45, 5.0);
 
         System.out.println(car1.name);
         System.out.println(car1.age);
@@ -406,5 +408,30 @@ public class Main2 {
 
         //car1.start();
         //car1.stop();
+
+
+
+        //Motor[] motors = {new Motor("Kawasaki", "Green"),
+                          //new Motor("Suzuki", "Purple"),
+                         // new Motor("Honda", "Red")};
+
+            //for(Motor motor : motors) {
+                //motor.color = "Black";
+            //}
+
+            //for (Motor motor : motors) {
+                //motor.drive();
+           // }
+
+        Dog dog = new Dog("Mikey");
+        Cat cat = new Cat("Ching");
+
+        System.out.println(dog.isAlive);
+        System.out.println(cat.isAlive);
+
+        dog.eat();
+        cat.eat();
+
+
     }
 }
