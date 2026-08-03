@@ -1,15 +1,5 @@
-public class Animal {
+public abstract class Animal {
 
-    boolean isAlive;
-    String name;
-
-    Animal(String typeOfPlants){
-        this.isAlive = true;
-        this.name = name;
-    }
-
-    void eat(){
-        System.out.println("The Animal  is Eating");
-    }
+    abstract void speak();
 
 }

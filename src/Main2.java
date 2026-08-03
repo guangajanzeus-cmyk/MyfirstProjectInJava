@@ -369,35 +369,7 @@ public class Main2 {
         //}
         // System.out.println();
         //}
-        Car car1 = new Car("Jan", 18, 3.0);
-        Car car2 = new Car("Sung", 25, 5.0);
-        Car car3 = new Car("Saitama", 24, 4.5);
-        Car car4 = new Car("Escanor", 45, 5.0);
 
-        System.out.println(car1.name);
-        System.out.println(car1.age);
-        System.out.println(car1.gpa);
-        System.out.println(car1.isEnrolled);
-
-        System.out.println();
-
-        System.out.println(car2.name);
-        System.out.println(car2.age);
-        System.out.println(car2.gpa);
-        System.out.println(car2.isEnrolled);
-
-        System.out.println();
-
-        System.out.println(car3.name);
-        System.out.println(car3.age);
-        System.out.println(car3.gpa);
-        System.out.println(car3.isEnrolled);
-
-        System.out.println();
-
-        car1.study();
-        car2.study();
-        car3.study();
 
         //System.out.println(car1.brand);
         //System.out.println(car1.model);
@@ -421,14 +393,6 @@ public class Main2 {
         //motor.drive();
         // }
 
-        Dog dog = new Dog("Mikey");
-        Cat cat = new Cat("Chi");
-
-        System.out.println(dog.isAlive);
-        System.out.println(cat.isAlive);
-
-        dog.eat();
-        cat.eat();
 
         Circle circle = new Circle(3);
         triangle triangle = new triangle(4, 7);
@@ -447,6 +411,56 @@ public class Main2 {
         hawk.hunt();
         fish.flee();
         fish.hunt();
+
+
+        Car car = new Car();
+        Bike bike = new Bike();
+        Boat boat = new Boat();
+
+        Vehicle[] vehicles =  {car, bike, boat};
+
+        for(Vehicle vehicle : vehicles){
+            vehicle.go();
+        }
+
+        Animal animal;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Would you like a dog or a cat? (1 = for dog, 2 = for cat): ");
+        int choice = scanner.nextInt();
+
+        if (choice == 1){
+            animal = new Dog();
+            animal.speak();
+        }
+        else if (choice == 2) {
+            animal = new Cat();
+            animal.speak();
+        }
+        else {
+            System.out.println("Invalid Choice");
+        }
+
+        scanner.close();
+
+        Headset headset = new Headset("Aula", "Black", 1999);
+
+        headset.setColor("Blue");
+        headset.setPrice(-1000);
+
+        System.out.println(headset.getColor() + " " + headset.getModel() + " " + headset.getPrice());
+
+
+        Book book1 = new Book("Naruto", 152);
+        Book book2 = new Book("One Piece", 483);
+        Book book3 = new Book("Attack on Titan", 89);
+
+        Book[] books = {book1, book2, book3};
+
+       Library library = new Library("NYC Public Library " , 2009, books);
+
+       library.displayInfo();
 
     }
 }
