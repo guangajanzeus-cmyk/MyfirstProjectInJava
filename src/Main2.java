@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -461,6 +462,16 @@ public class Main2 {
        Library library = new Library("NYC Public Library " , 2009, books);
 
        library.displayInfo();
+
+       //Composition
+
+       Car1 car1 = new Car1("Farrari", 2026, "V8");
+
+        System.out.println(car1.model);
+        System.out.println(car1.year);
+        System.out.println(car1.engine.type);
+
+        car1.start();
 
     }
 }
