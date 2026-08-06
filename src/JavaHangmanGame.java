@@ -87,7 +87,7 @@ public class JavaHangmanGame {
         }
         if (wrongGuess >= 6) {
             System.out.println(getHangmanArt(wrongGuess));
-            System.out.println("GAME OVER!");
+            System.out.println("YOU LOSE!");
             System.out.println("the word was: " + word);
         }
         scanner.close();
